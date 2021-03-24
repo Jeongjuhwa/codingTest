@@ -26,7 +26,7 @@ public class BaekJoon15903 {
 //			arr[i] = Long.parseLong(st.nextToken());
 //
 //		for (int i = 0; i < count; i++) {
-//			Arrays.sort(arr);
+//			Arrays.sort(arr); -> for문 한 번 수행할때마다 정렬 비효율적
 //			long sum = arr[0] + arr[1];
 //			arr[0] = arr[1] = sum;
 //		}
