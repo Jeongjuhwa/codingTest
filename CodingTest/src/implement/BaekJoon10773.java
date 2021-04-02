@@ -3,7 +3,7 @@ package implement;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
+
 import java.util.Stack;
 
 public class BaekJoon10773 {
@@ -16,8 +16,6 @@ public class BaekJoon10773 {
 		Stack<Integer> answer = new Stack<Integer>();
 		int i = 0;
 		int count = 0;
-		int flag = 0;
-		int recent = 1;
 		for (int idx = 0; idx < n; idx++)
 			arr[idx] = Integer.parseInt(br.readLine());
 
