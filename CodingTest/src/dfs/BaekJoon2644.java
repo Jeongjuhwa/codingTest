@@ -50,7 +50,7 @@ public class BaekJoon2644 {
 	public static void dfs(int start, int count) {
 		visited[start] = true;
 
-		for (int i = 0; i < graph.get(start).get(i); i++) {
+		for (int i = 0; i < graph.get(start).size(); i++) {
 			int y = graph.get(start).get(i);
 
 			if (!visited[y]) {
